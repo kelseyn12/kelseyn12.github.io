@@ -145,7 +145,7 @@ Go to `/index.html` and fill your information, there are 6 sections:
 
 ```html
 <!-- **** Header of Homepage **** -->
-<header class="header">
+<!-- <header class="header">
   <div class="header__content">
     <div class="header__logo-container">
       <div class="header__logo-img-cont">
@@ -186,7 +186,7 @@ Go to `/index.html` and fill your information, there are 6 sections:
       <ul class="header__sm-menu-links">
         <li class="header__sm-menu-link">
           <a href="./"> Home </a>
-        </li>
+        </li> -->
 
         <li class="header__sm-menu-link">
           <a href="./#about"> About </a>
@@ -201,20 +201,20 @@ Go to `/index.html` and fill your information, there are 6 sections:
         </li>
       </ul>
     </div>
-  </div>
-</header>
+  <!-- </div>
+</header> -->
 <!-- END Header -->
-```
+<!-- ``` -->
 
-### Hero Section of Homepage
+<!-- ### Hero Section of Homepage
 
 - On `.heading-primary`, put your custom title.
 - On `.text-primary`, put a short description about yourself.
-- On `.home-hero__social-icon-link`, fill the href attribute with a link related to your social media account.
+- On `.home-hero__social-icon-link`, fill the href attribute with a link related to your social media account. -->
 
-```html
+<!-- ```html -->
 <!-- **** Hero Section of Homepage **** -->
-<section class="home-hero">
+<!-- <section class="home-hero">
   <div class="home-hero__content">
     <h1 class="heading-primary">Hey, My name is John Doe</h1>
     <div class="home-hero__info">
@@ -281,19 +281,19 @@ Go to `/index.html` and fill your information, there are 6 sections:
   <div class="home-hero__mouse-scroll-cont">
     <div class="mouse"></div>
   </div>
-</section>
+</section> -->
 <!-- /END Hero Section -->
-```
+<!-- ``` -->
 
-### About Section
+<!-- ### About Section
 
 - On `.heading-sec__sub`, put a short description about the section.
 - On `.about__content-details-para`, put your details here and use `<strong></strong>` tag to highlight specific keywords.
-- On `.skills__skill`, mention your skill one by one.
+- On `.skills__skill`, mention your skill one by one. -->
 
-```html
+<!-- ```html -->
 <!-- **** About Section of Homepage **** -->
-<section id="about" class="about sec-pad">
+<!-- <section id="about" class="about sec-pad">
   <div class="main-container">
     <h2 class="heading heading-sec heading-sec__mb-med">
       <span class="heading-sec__main">About Me</span>
@@ -347,11 +347,11 @@ Go to `/index.html` and fill your information, there are 6 sections:
       </div>
     </div>
   </div>
-</section>
+</section> -->
 <!-- END About Section -->
-```
+<!-- ``` -->
 
-### Projects
+<!-- ### Projects
 
 - On `.heading-sec__sub`, put a short description about the section.
 - `.projects__row` is the row for each project in your portfolio.
@@ -365,11 +365,11 @@ Go to `/index.html` and fill your information, there are 6 sections:
   - `.projects__row-content-desc` is where you need to add a short 2-3 lines description of your project. As there's going to be a separate page for each project so there you can add all the details for each project on the specific project page.
   - The Anchor tag ( **Case Study** button) on press will take you to the details page for each project ( For example: If you click the **Case Study** button of Project 1 then it will take you to the `project-1.html` file where you will have all the details about that particular project).
 
-Currently, I have already added a separate for each project ( considering there are 3 projects ) the file names are `project-1.html`, `project-2.html`, and `project-3.html`. They all contain the same code only the project title, description and image will change. If you like to add more projects then you can just create a new file for it and paste the same code that we have in `project-1.html` as the code is going to be the same and the only thing that you need to change is the data inside each project.
+Currently, I have already added a separate for each project ( considering there are 3 projects ) the file names are `project-1.html`, `project-2.html`, and `project-3.html`. They all contain the same code only the project title, description and image will change. If you like to add more projects then you can just create a new file for it and paste the same code that we have in `project-1.html` as the code is going to be the same and the only thing that you need to change is the data inside each project. -->
 
-```html
+<!-- ```html -->
 <!-- **** Projects Section of Homepage **** -->
-<section id="projects" class="projects sec-pad">
+<!-- <section id="projects" class="projects sec-pad">
   <div class="main-container">
     <h2 class="heading heading-sec heading-sec__mb-bg">
       <span class="heading-sec__main">Projects</span>
@@ -451,11 +451,11 @@ Currently, I have already added a separate for each project ( considering there 
       </div>
     </div>
   </div>
-</section>
+</section> -->
 <!-- END Projects Section -->
-```
+<!-- ``` -->
 
-### Contact Section
+<!-- ### Contact Section
 
 - On `.heading-sec__sub`, put a short description about the section.
 - `.contact__form-field` is the field inside form. Currently, there are 3 fields but you can add more fields as per your need but just make sure to change the name of **label** and **input/textarea** inside it.
@@ -517,11 +517,11 @@ If you like to know how to submit forms so you can receive the form details in y
   </div>
 </section>
 <!-- END Contact Section -->
-```
+``` -->
 
 
 
-### Footer Section
+<!-- ### Footer Section
 
 - Inside h4 tag with the class `heading heading-sm text-lt` add your name.
 - On `.main-footer__short-desc` put a short description about yourself.
@@ -596,9 +596,9 @@ If you like to know how to submit forms so you can receive the form details in y
 
 <br/>
 
----
+--- -->
 
-<br/>
+<!-- <br/>
 
 ## Step 3 - Project Page
 
@@ -628,21 +628,21 @@ Each project will have its own Page. The project page will have important detail
     </div>
   </div>
 </section>
-```
+``` -->
 
 <!-- **** END Project Hero Section **** -->
 
-### Project Details Section
+<!-- ### Project Details Section
 
 - On `.project-details__showcase-img`, change the value of **src** to the location/link of Project Mockup.
 - On `.project-details__desc-para` to add a detailed paragraph describing your project. Use multiple `.project-details__desc-para` elements for multiple paragraphs.
 - On `.skills` mention the skills that were used to build the project inside `.skills__skill` to mention each skill.
 - On Anchor Tag that says **Live Link** with class `btn btn--med btn--theme project-details__links-btn`, add the Project Live Link as the value for the href attribute.
-- On Anchor Tag that says **Code Link** with class `btn btn--med btn--theme-inv project-details__links-btn`, add the Project's Code Link ( Repository Link ) as the value for the href attribute.
+- On Anchor Tag that says **Code Link** with class `btn btn--med btn--theme-inv project-details__links-btn`, add the Project's Code Link ( Repository Link ) as the value for the href attribute. -->
 
 <!-- **** Project Details Section **** -->
 
-```html
+<!-- ```html
 <section class="project-details">
   <div class="main-container">
     <div class="project-details__content">
@@ -652,8 +652,8 @@ Each project will have its own Page. The project page will have important detail
           alt="Project Image"
           class="project-details__showcase-img"
         />
-      </div>
-      <div class="project-details__content-main">
+      </div> -->
+      <!-- <div class="project-details__content-main">
         <div class="project-details__desc">
           <h3 class="project-details__content-title">Project Overview</h3>
           <p class="project-details__desc-para">
@@ -731,9 +731,9 @@ Once you press the **Create Site Button** then you will have to follow the 3 ste
 
 1. You will have to select your Github account.
 
-2. Then select the Repository which you wanna host, in this case its your Portfolio website ( Clone of Dopefolio )
+2. Then select the Repository which you wanna host, in this case its your Portfolio website ( Clone of Dopefolio ) -->
 
-3. In the 3rd step, you will have to modify the **Site settings and deploy**, keep everything as it is but just make sure to modify the **Build command** and set its value to **npm run build** and then modify the **Publish directory** and set its value to **/** as shown in the  **image** below
+<!-- 3. In the 3rd step, you will have to modify the **Site settings and deploy**, keep everything as it is but just make sure to modify the **Build command** and set its value to **npm run build** and then modify the **Publish directory** and set its value to **/** as shown in the  **image** below
 
 <div align="center">
   <img src="https://i.ibb.co/hDTTrPB/Set-Build-Command-to.png" alt="Dopefolio Build Command Example and Publish Directory Value" width="100%" />
@@ -748,9 +748,9 @@ Then hit the **Deploy site** button and your **Portfolio Site** is live 🥳
 
 ---
 
-<br>
+<br> -->
 
-## Give a Star ⭐
+<!-- ## Give a Star ⭐
 
 If you like this project then give it a **Github** star by pressing the **Star** button ⭐
 
@@ -764,9 +764,9 @@ If you like this project then give it a **Github** star by pressing the **Star**
 
 - **Ram Maheshwari** - **[Linkedin](https://linkedin.com/in/rammcodes)**, **[Instagram](https://instagram.com/rammcodes_)**, **[Twitter](https://twitter.com/rammcodes)**, **[Github](https://github.com/rammcodes)**, **[Portfolio](https://rammaheshwari.com)**  
 
-<br>
+<br> -->
 
-#### Note: 
+<!-- #### Note: 
 I'm currently looking for good **Job Opportunities** both **Remote ( Worldwide )** and **On-Site ( Anywhere in India )**. So, if you have a good opportunity that matches my skills experience then you can contact me on my **[Linkedin](https://linkedin.com/in/rammcodes)** or my email id **rammcodes@gmail.com** 🙌
 
 
@@ -774,9 +774,9 @@ I'm currently looking for good **Job Opportunities** both **Remote ( Worldwide )
 
 ---
 
-<br>
+<br> -->
 
-## Special Thanks ❤️
+<!-- ## Special Thanks ❤️
 
 Special thanks to [Jacobo Martínez](https://github.com/cobidev) for inspiring me to create something useful for the Developer Community. **Jacobo** is the creator of [Simplefolio](https://github.com/cobidev/simplefolio) which is another great Portfolio website Template for Developers. Check it out and show him some love ❤️
 
@@ -788,5 +788,5 @@ Special thanks to [Jacobo Martínez](https://github.com/cobidev) for inspiring m
 
 ## License 📄
 
-This project is licensed under the  **GPL-3.0** License - see the [LICENSE](LICENSE) file for details -->
+This project is licensed under the  **GPL-3.0** License - see the [LICENSE](LICENSE) file for details --> -->
 
