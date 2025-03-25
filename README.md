@@ -464,7 +464,7 @@ If you like to know how to submit forms so you can receive the form details in y
 
 ```html
 <!-- **** Contact Section of Homepage **** -->
-<section id="contact" class="contact sec-pad dynamicBg">
+<!-- <section id="contact" class="contact sec-pad dynamicBg">
   <div class="main-container">
     <h2 class="heading heading-sec heading-sec__mb-med">
       <span class="heading-sec__main heading-sec__main--lt">Contact</span>
@@ -515,9 +515,9 @@ If you like to know how to submit forms so you can receive the form details in y
       </form>
     </div>
   </div>
-</section>
+</section> -->
 <!-- END Contact Section -->
-``` -->
+<!-- ``` --> -->
 
 
 
@@ -529,7 +529,7 @@ If you like to know how to submit forms so you can receive the form details in y
 
 ```html
 <!-- **** Footer Section **** -->
-<footer class="main-footer">
+<!-- <footer class="main-footer">
   <div class="main-container">
     <div class="main-footer__upper">
       <div class="main-footer__row main-footer__row-1">
@@ -590,13 +590,13 @@ If you like to know how to submit forms so you can receive the form details in y
       >
     </div>
   </div>
-</footer>
+</footer> -->
 <!-- END Footer Section -->
-```
+<!-- ``` -->
 
-<br/>
+<!-- <br/>
 
---- -->
+--- --> -->
 
 <!-- <br/>
 
@@ -612,8 +612,8 @@ Each project will have its own Page. The project page will have important detail
 
 <!-- **** Project Section **** -->
 
-```html
-<section class="project-cs-hero">
+<!-- ```html -->
+<!-- <section class="project-cs-hero">
   <div class="project-cs-hero__content">
     <h1 class="heading-primary">Project 1</h1>
     <div class="project-cs-hero__info">
@@ -628,7 +628,7 @@ Each project will have its own Page. The project page will have important detail
     </div>
   </div>
 </section>
-``` -->
+``` --> -->
 
 <!-- **** END Project Hero Section **** -->
 
@@ -706,20 +706,20 @@ Each project will have its own Page. The project page will have important detail
         </div>
       </div>
     </div>
-  </div>
+  <!-- </div>
 </section>
-```
+``` -->
 
 <!-- **** END Project Details Section **** -->
 
-<br>
+<!-- <br>
 
 ---
 
-<br>
+<br> -->
 
 
-## Deployment 📦
+<!-- ## Deployment 📦
 
 Once you have done with your setup. You need to put your website online!
 
@@ -731,7 +731,7 @@ Once you press the **Create Site Button** then you will have to follow the 3 ste
 
 1. You will have to select your Github account.
 
-2. Then select the Repository which you wanna host, in this case its your Portfolio website ( Clone of Dopefolio ) -->
+<!-- 2. Then select the Repository which you wanna host, in this case its your Portfolio website ( Clone of Dopefolio )  -->
 
 <!-- 3. In the 3rd step, you will have to modify the **Site settings and deploy**, keep everything as it is but just make sure to modify the **Build command** and set its value to **npm run build** and then modify the **Publish directory** and set its value to **/** as shown in the  **image** below
 
