@@ -117,7 +117,7 @@ textarea {
   position: relative;
 }
 .heading-sec__main--lt {
-  color: #fff;
+  color: #0A4F6D;
 }
 .heading-sec__main--lt::after {
   content: "";
@@ -155,7 +155,7 @@ textarea {
   }
 }
 .heading-sec__sub--lt {
-  color: #eee;
+  color: #555;
 }
 
 .heading-sm {
@@ -303,6 +303,7 @@ textarea {
   border: 2px solid #eee;
   border-left: 2px solid #eee;
   transform: translateY(-50%);
+  background-color: rgba(10, 79, 109, 0.2);
 }
 @media only screen and (max-width: 56.25em) {
   .home-hero__socials {
@@ -331,7 +332,7 @@ textarea {
   transition: background 0.3s;
 }
 .home-hero__social-icon-link:hover {
-  background: rgba(255, 255, 255, 0.1);
+  background-color: rgba(10, 79, 109, 0.9);
 }
 .home-hero__social-icon-link--bd-none {
   border-bottom: 0;
@@ -461,6 +462,7 @@ textarea {
   font-weight: 700;
   font-size: 2.8rem;
   margin-bottom: 2rem;
+  color:#0A4F6D;
 }
 @media only screen and (max-width: 37.5em) {
   .projects__row-content-title {
@@ -469,7 +471,7 @@ textarea {
 }
 .projects__row-content-desc {
   font-size: 1.8rem;
-  color: grey;
+  color: #555;
   max-width: 60rem;
   line-height: 1.7;
   margin-bottom: 3rem;
@@ -510,7 +512,7 @@ textarea {
   }
 }
 .contact__form-label {
-  color: #666;
+  color: #555;
   font-size: 1.4rem;
   letter-spacing: 1px;
   font-weight: 700;
@@ -525,7 +527,7 @@ textarea {
   border: 1px solid rgb(235, 235, 235);
   font-size: 1.6rem;
   letter-spacing: 0px;
-  background: #f0f0f0;
+  background: rgb(244, 248, 250);
   border-radius: 5px;
   font-weight: 600;
   /* Code for Modern Browsers */
@@ -623,6 +625,7 @@ textarea {
   font-weight: 700;
   font-size: 2.8rem;
   margin-bottom: 3rem;
+  color:#0A4F6D;
 }
 @media only screen and (max-width: 37.5em) {
   .project-details__content-title {
@@ -647,7 +650,7 @@ textarea {
 .project-details__desc-para {
   font-size: 1.8rem;
   line-height: 1.7;
-  color: grey;
+  color: #555;
   margin-bottom: 2rem;
 }
 .project-details__tools-used {
@@ -766,7 +769,7 @@ textarea {
   transition: color 0.3s;
 }
 .header__link:hover {
-  color: #F4F8FA;
+  color: #8BE78B;
 }
 @media only screen and (max-width: 56.25em) {
   .header__link {
